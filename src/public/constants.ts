@@ -3,7 +3,7 @@ export enum HostClientType {
   web = 'web',
   android = 'android',
   ios = 'ios',
-  rigel = 'rigel',
+  meetingRoom = 'meetingRoom',
 }
 
 // Ensure these declarations stay in sync with the framework.

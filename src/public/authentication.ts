@@ -41,7 +41,7 @@ export namespace authentication {
       GlobalVars.hostClientType === HostClientType.desktop ||
       GlobalVars.hostClientType === HostClientType.android ||
       GlobalVars.hostClientType === HostClientType.ios ||
-      GlobalVars.hostClientType === HostClientType.rigel
+      GlobalVars.hostClientType === HostClientType.meetingRoom
     ) {
       // Convert any relative URLs into absolute URLs before sending them over to the parent window.
       const link = document.createElement('a');
